@@ -85,7 +85,7 @@ def set_background(image_path):
     st.markdown(background, unsafe_allow_html=True)
 
 #reading background image
-'''set_background(r"C:\Users\kusar\OneDrive\Pictures\abstract-colorful-7-4k.jpg")'''
+#set_background(r"C:\\Users\\kusar\\OneDrive\\Pictures\\abstract-colorful-7-4k.jpg")#
 
 #loading models
 
@@ -142,4 +142,5 @@ if predictbutton:
     elif prediction < 4.0:
         st.write("Good")
     else:
+
         st.write("Excellent")
