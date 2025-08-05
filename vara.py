@@ -51,8 +51,10 @@ st.markdown(
     .stButton>button:hover {
       background: #2B124C;
         color:#DFB6B2;
+    }
+    
     body {  
-      background: linear-gradient(to bottom, #FBE4D8, #DFB6B2, #854F6C, #2B124C, #190019);
+        background: linear-gradient(to bottom, #FBE4D8, #DFB6B2, #854F6C, #2B124C, #190019);
         min-height: 100vh;
         margin: 0;
         display:flex;
@@ -60,9 +62,11 @@ st.markdown(
         align-items:center;
         font-family: Arial, sans-serif;   
     }
+    
     .stApp {
         padding: 40px;
     }
+    
     </style>
     """,
     unsafe_allow_html=True
@@ -144,3 +148,4 @@ if predictbutton:
     else:
 
         st.write("Excellent")
+
